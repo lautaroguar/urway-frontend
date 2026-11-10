@@ -11,7 +11,7 @@
  *
  * POR QUÉ SOLO HAY UNA CARRERA:
  *   Todos los datos de ejemplo de la app (materias, plan, compañeros) son de
- *   Ingeniería en Informática, así que es la única carrera que se ofrece.
+ *   Ingeniería Informática, así que es la única carrera que se ofrece.
  *
  * TEORÍA:
  *   [JS 3]  Arrays de objetos como "base de datos" de la demo.

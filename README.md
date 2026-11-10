@@ -26,8 +26,13 @@ Requisitos: Node.js 20 o superior, npm y la app **Expo Go** en el celular (o un 
 ```bash
 npm install
 npx prisma generate
+npm run db:setup
 npm run dev
 ```
+
+`npm run db:setup` va la primera vez: arma la base del backend con las **migraciones** de Prisma y
+le carga los datos de ejemplo con el **seeder** (las cuentas de prueba de abajo). Ningún repo sube
+la base de datos: cada uno la arma en su máquina con ese comando (ver el README del backend).
 
 **2. La app** (desde esta carpeta):
 

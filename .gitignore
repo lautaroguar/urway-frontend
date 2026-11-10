@@ -30,6 +30,12 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# Bases de datos: nunca se suben (la del backend la arman sus migraciones y su seeder)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
 # local env files (el .env SÍ se sube: no tiene secretos y lo pidió la cátedra)
 .env*.local
 

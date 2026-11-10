@@ -171,7 +171,7 @@ export type Materia = MateriaDelPlan & {
 // carrera). Los TOTALES (materias aprobadas, créditos...) no están escritos: se
 // calculan con `resumenCarrera` (`utilidades/materias.ts`) a partir de las materias.
 export const carrera = {
-  nombre: "Ingeniería en Informática",
+  nombre: "Ingeniería Informática",
   universidad: "UCA · Buenos Aires",
 };
 
